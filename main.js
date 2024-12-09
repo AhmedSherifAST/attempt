@@ -13,3 +13,7 @@ function difference(x,y){
 const operation = () => {
     console.log("operation");
 }
+
+const addOperation = () => {
+    console.log("add op");
+}
