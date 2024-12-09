@@ -9,7 +9,11 @@ function multiply(x,y){
 function difference(x,y){
     return x-y;
 }
-
 function division(x,y){
     return x / y;
 }
+
+const operation = () => {
+    console.log("operation");
+}
+
