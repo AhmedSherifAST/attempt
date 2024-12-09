@@ -9,3 +9,7 @@ function multiply(x){
 function difference(x,y,z){
     return x-y;
 }
+
+function division(x,y){
+    return x / y;
+}
