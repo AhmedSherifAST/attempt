@@ -6,8 +6,8 @@ function multiplyT14(x,y){
     return x*y;
 }
 
-function difference(x,y){
-    return x-y;
+function differenceT10(x,y){
+    return x-y; // update
 }
 
 const operation = () => {
@@ -20,4 +20,8 @@ const addOperation = () => {
 
 const divOperatoin = () => {
     console.log("divide operation")
+}
+
+const welcome = () => {
+    console.log("Welcome everyone");
 }
