@@ -1,8 +1,8 @@
-function sum(x,y){
+function sumT14(x,y){
     return x+y;
 }
 
-function multiply(x,y){
+function multiplyT14(x,y){
     return x*y;
 }
 
@@ -16,4 +16,8 @@ const operation = () => {
 
 const addOperation = () => {
     console.log("add op");
+}
+
+const divOperatoin = () => {
+    console.log("divide operation")
 }
