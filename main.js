@@ -19,3 +19,6 @@ const operation = () => {
 const addOperation = () => {
     console.log("add op");
 }
+const divOperatoin = () => {
+    console.log("divide operation")
+}
