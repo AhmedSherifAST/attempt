@@ -22,3 +22,7 @@ const addOperation = () => {
 const divOperatoin = () => {
     console.log("divide operation")
 }
+
+const welcome = () => {
+    console.log("Welcome everyone");
+}
