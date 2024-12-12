@@ -29,3 +29,7 @@ const welcome = () => {
 const greeting = () => {
     console.log("Hello");
 }
+
+const farewell = () => {
+    console.log("Bye");
+}
