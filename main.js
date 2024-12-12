@@ -26,3 +26,7 @@ const divOperatoin = () => {
 const welcome = () => {
     console.log("Welcome everyone");
 }
+
+const greeting = () => {
+    console.log("Hello");
+}
