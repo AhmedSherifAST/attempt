@@ -33,3 +33,7 @@ const greeting = () => {
 const farewell = () => {
     console.log("Bye");
 }
+
+const noSESummer= () => {
+    console.log("isallah no SE summer for us");
+}
