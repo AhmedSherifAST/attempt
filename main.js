@@ -37,3 +37,7 @@ const farewell = () => {
 const noSESummer= () => {
     console.log("isallah no SE summer for us");
 }
+
+const midtermResults= () => {
+    console.log("isallah good midterm grades has appeared");
+}
