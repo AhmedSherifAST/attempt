@@ -13,6 +13,10 @@ function division(x,y){
     return x / y;
 }
 
+function powerby2(x){
+    return x * x;
+}
+
 const operation = () => {
     console.log("operation");
 }
@@ -42,3 +46,4 @@ const noSESummer= () => {
 const midtermResults= () => {
     console.log("isallah good midterm grades has appeared");
 }
+
