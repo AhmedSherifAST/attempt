@@ -1,9 +1,9 @@
 function sumT14(x,y){
-    return x+y;
+    return x-y;
 }
 
 function multiplyT14(x,y){
-    return x*y;
+    return x-y;
 }
 
 function differenceT10(x,y){
