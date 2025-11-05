@@ -1,9 +1,10 @@
-function sum(x,y){
-    return x+y;
+
+function sum(x,y,z){
+    return x+y+z;
 }
 
-function multiply(x,y){
-    return x*y;
+function multiply(x,y,z){
+    return x*y*z;
 }
 
 function difference(x,y){
@@ -13,8 +14,17 @@ function division(x,y){
     return x / y;
 }
 
+
 function powerby2(x){
     return x * x;
+}
+
+function power(x,y){
+    let result = 1;
+    for(let i = 0; i < y; i++){
+        result *= x;
+    } 
+    return result;
 }
 
 const operation = () => {
