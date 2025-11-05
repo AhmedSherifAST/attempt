@@ -1,17 +1,21 @@
-function sumT14(x,y){
-    return x-y;
+function sumT14(x,y,z){
+    return x+y+z;
 }
 
-function multiplyT14(x,y){
-    return x-y;
+function multiplyT14(x,y,z){
+    return x*y*z;
 }
 
 function differenceT10(x,y){
     return x-y; // update
 }
 
-function powerby2(x){
-    return x * x;
+function power(x,y){
+    let result = 1;
+    for(let i = 0; i < y; i++){
+        result *= x;
+    } 
+    return result;
 }
 
 const operation = () => {
