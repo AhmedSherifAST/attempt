@@ -1,13 +1,17 @@
-function sumT14(x,y,z){
+function sumT12(x,y,z){
     return x+y+z;
 }
 
-function multiplyT14(x,y,z){
+function multiplyT12(x,y,z){
     return x*y*z;
 }
 
 function differenceT10(x,y){
     return x-y; // update
+}
+
+function greeting(){
+    console.log("Hi");
 }
 
 function power(x,y){
