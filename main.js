@@ -8,9 +8,15 @@ function multiply(x,y){
 }
 
 function difference(x,y){
+    if(y>x){
+        return "first number should be greater";
+    }
     return x-y;
 }
 function division(x,y){
+    if(y == 0){
+        return "cannot divide by zero";
+    }
     return x / y;
 }
 
@@ -23,11 +29,11 @@ function powerby2(x){
 }
 
 function power(x,y){
-    let result = 1;
-    for(let i = 0; i < y; i++){
-        result *= x;
+    let output = 1;
+    for(let j = 0; j < y; j++){
+        output *= x;
     } 
-    return result;
+    return output;
 }
 
 const operation = () => {

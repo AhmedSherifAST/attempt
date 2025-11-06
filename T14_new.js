@@ -1,1 +1,7 @@
-console.log("Welcome back from midterms ........");
+function greeting(){
+    console.log("Welcome");
+}
+
+function bye(){
+    console.log("bye bye");
+}
