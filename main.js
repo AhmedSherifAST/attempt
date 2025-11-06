@@ -1,10 +1,10 @@
 
-function sum(x,y,z){
-    return x+y+z;
+function sum(x,y){
+    return x+y;
 }
 
-function multiply(x,y,z){
-    return x*y*z;
+function multiply(x,y){
+    return x*y;
 }
 
 function difference(x,y){
@@ -14,6 +14,9 @@ function division(x,y){
     return x / y;
 }
 
+function powerBy3(x){
+    return x*x*x;
+}
 
 function powerby2(x){
     return x * x;
