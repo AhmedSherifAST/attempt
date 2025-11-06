@@ -1,9 +1,13 @@
-function sum(x,y,z){
-    return x+y+z;
+function sum(x,y,z,w){
+    return x+y+z+w;
 }
 
 function multiply(x,y,z){
     return x*y*z;
+}
+
+function bye(){
+    console.log("Bye Bye")
 }
 
 function difference(x,y){
@@ -29,19 +33,23 @@ function powerby2(x){
 
 
 function greeting(){
-    console.log("Hi");
+    console.log("Hi T17");
 }
 
 function power(x,y){
-    let output = 1;
-    for(let j = 0; j < y; j++){
-        output *= x;
+    if(!(x > 0 && y > 0)){
+        return "it has to be positive numbers";
+    }
+    let result = 1;
+    for(let i = 0; i < y; i++){
+        result *= x;
     } 
     return output;
 }
 
 const operation = () => {
-    console.log("operation");
+    console.log("start operation");
+    console.log("operation .......");
 }
 const addOperation = () => {
     console.log("add op");
