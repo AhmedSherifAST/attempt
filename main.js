@@ -53,11 +53,16 @@ const divOperatoin = () => {
 }
 
 const welcome = () => {
-    console.log("Welcome everyone");
+    i = 0;
+    while(i<=10){
+        console.log("Welcome everyone");
+        i++;
+    }
 }
 
 const greeting = () => {
-    console.log("Hello");
+    const result = 1;
+    console.log("Hello T20");
 }
 
 const farewell = () => {
@@ -65,8 +70,10 @@ const farewell = () => {
 }
 
 const noSESummer= () => {
-    const result = 1;
     console.log("isallah no SE summer for us .........");
+    console.log("isallah nein SE summer for us .........");
+    console.log("isallah nein SE summer for us .........");
+
 }
 
 const midtermResults= () => {
@@ -76,4 +83,9 @@ const midtermResults= () => {
 const finalResults = () => {
     console.log("Good luck in your final")
 }
+
+const summerResults  = () => {
+    console.log("No summer for SE");
+}
+
 
