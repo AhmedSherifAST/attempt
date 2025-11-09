@@ -12,11 +12,8 @@ function bye(){
 
 }
 
-function difference(x,y){
-    if(y>x){
-        return "first number should be greater";
-    }
-    return x-y;
+function difference(x,y,z){
+    return x-y-z; // update
 }
 
 
@@ -43,6 +40,11 @@ function powerby2(x){
 function greetingT14(){
     console.log("Welcome T14 to Git Tutorial");
 }
+
+function greetT20(){
+    console.log("Helloo TT123");
+}
+
 
 function greeting(){
     console.log("Hi T17");
