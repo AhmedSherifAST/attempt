@@ -8,11 +8,17 @@ function multiply(x,y,z){
 
 
 function bye(){
-    console.log("Bye Bye")
+    console.log("Bye Bye");
+    console.log("Bye Bye T09");
+
 }
 
-function differenceT10(x,y){
-    return x-y; // update
+function difference(x,y,z){
+    return x-y-z; // update
+}
+
+function greetingT09(){
+    console.log("Welocme T09");
 }
 
 function greetingT14(){
@@ -25,12 +31,12 @@ function greeting(){
 }
 
 function power(x,y){
-    let result = 1;
+    let output = 1;
     for(let i = 0; i < y; i++){
-        result *= x;
+        output *= x;
     } 
-    console.log(`result is ${result}`);
-    return result;
+    console.log(`output is ${output}`);
+    return output;
 }
 
 const operation = () => {
