@@ -1,9 +1,9 @@
-function sum(x,y,z,w){
-    return x+y+z+w;
+function sum(x,y){
+    return x+y;
 }
 
-function multiply(x,y,z,w){
-    return x*y*z*w;
+function multiply(x,y,z){
+    return x*y*z;
 }
 
 
@@ -15,18 +15,21 @@ function differenceT10(x,y){
     return x-y; // update
 }
 
+function greetingT14(){
+    console.log("Welcome T14");
+}
+
+
 function greeting(){
     console.log("Hi T17");
 }
 
 function power(x,y){
-    if(!(x > 0 && y > 0)){
-        return "it has to be positive numbers";
-    }
     let result = 1;
     for(let i = 0; i < y; i++){
         result *= x;
     } 
+    console.log(`result is ${result}`);
     return result;
 }
 
