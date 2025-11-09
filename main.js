@@ -7,7 +7,9 @@ function multiply(x,y,z){
 }
 
 function bye(){
-    console.log("Bye Bye")
+    console.log("Bye Bye");
+    console.log("Bye Bye T09");
+
 }
 
 function difference(x,y){
@@ -16,6 +18,13 @@ function difference(x,y){
     }
     return x-y;
 }
+
+
+function greetingT09(){
+    console.log("Welocme T09");
+}
+
+
 function division(x,y){
     if(y == 0){
         return "cannot divide by zero";
@@ -38,6 +47,7 @@ function greetingT14(){
 function greeting(){
     console.log("Hi T17");
 }
+
 
 function power(x,y){
     let result = 1;
