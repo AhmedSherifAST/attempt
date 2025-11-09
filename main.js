@@ -25,6 +25,10 @@ function greetingT14(){
     console.log("Welcome T14");
 }
 
+function greetT20(){
+    console.log("Helloo TT123");
+}
+
 
 function greeting(){
     console.log("Hi T17");
