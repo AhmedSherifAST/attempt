@@ -1,2 +1,3 @@
-console.log("Git Tutorial");
-console.log("Attendance is taken")
+console.log("Git Tutorial 3 on Sunday");
+console.log("Attendance is not taken yet");
+

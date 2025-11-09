@@ -65,10 +65,15 @@ const farewell = () => {
 }
 
 const noSESummer= () => {
-    console.log("isallah no SE summer for us");
+    const result = 1;
+    console.log("isallah no SE summer for us .........");
 }
 
 const midtermResults= () => {
-    console.log("isallah good midterm grades has appeared");
+    console.log("exam was easy and good luck with final");
+}
+
+const finalResults = () => {
+    console.log("Good luck in your final")
 }
 
